@@ -119,7 +119,9 @@ const AdminDashboard = () => {
         setShowDoctorForm(true);
         // Set existing image as preview
         setImageFile(null);
-        setImagePreview(doc.image ? `http://localhost:5000${doc.image}` : null);
+        // Calculate base URL for images
+        const baseUrl = import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL.replace('/api', '') : 'http://localhost:5000';
+        setImagePreview(doc.image ? `${baseUrl}${doc.image}` : null);
     };
 
     const handleDeleteDoctor = async (id) => {
@@ -418,7 +420,7 @@ const AdminDashboard = () => {
                                         <div className="card-body">
                                             <div className="d-flex align-items-center mb-3">
                                                 <img
-                                                    src={doc.image?.startsWith('/uploads') ? `http://localhost:5000${doc.image}` : doc.image}
+                                                    src={doc.image?.startsWith('/uploads') ? `${import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL.replace('/api', '') : 'http://localhost:5000'}${doc.image}` : doc.image}
                                                     alt={doc.name}
                                                     style={{ width: 60, height: 60, borderRadius: '50%', objectFit: 'cover' }}
                                                     className="me-3 shadow-sm"

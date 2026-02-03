@@ -115,7 +115,7 @@ const DoctorsSection = () => {
                     }}
                   >
                     <img
-                      src={doctor.image?.startsWith('/uploads') ? `http://localhost:5000${doctor.image}` : doctor.image}
+                      src={doctor.image?.startsWith('/uploads') ? `${import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL.replace('/api', '') : 'http://localhost:5000'}${doctor.image}` : doctor.image}
                       alt={doctor.name}
                       className="w-100 h-100"
                       style={{ objectFit: 'cover' }}
