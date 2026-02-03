@@ -72,6 +72,7 @@ The system enables healthcare facilities to:
 | **JWT** | Token-based authentication |
 | **bcryptjs** | Password hashing |
 | **Multer** | File upload handling |
+| **cloudinary** | image upload handling |
 
 ### Frontend
 | Technology | Description |
