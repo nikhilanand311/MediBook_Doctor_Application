@@ -21,7 +21,7 @@ A comprehensive full-stack healthcare appointment booking system built with Reac
 | Tech Stack | [Tech Stack](#tech-stack) |
 | Architecture | [Architecture](#architecture) |
 | User Roles | [User Roles](#user-roles) |
-| Screenshots | [Screenshots](#screenshots) |
+| Pages | [Pages](#pages) |
 | Installation | [Installation](#installation) |
 | Configuration | [Configuration](#configuration) |
 | API Documentation | [API Documentation](#api-documentation) |
@@ -152,25 +152,51 @@ login_and_register/
 - View personal appointment history
 - Track appointment status (pending/approved/rejected)
 
-## 📸 Screenshots
+## � Pages
 
-### Landing Page Sections
-| Hero Section | About Section | Doctors Section |
-|--------------|---------------|-----------------|
-| Modern hero with call-to-action | About the healthcare facility | Browse available doctors |
+### Landing Page
 
-| Features | How It Works | Testimonials |
-|----------|--------------|--------------|
-| Key platform features | Step-by-step booking guide | Patient testimonials |
+| Hero Section | Features Section | Features Section (cont.) |
+|--------------|------------------|--------------------------|
+| ![Hero](images/LandingHero1.png) | ![Features](images/LandingFeatures2.png) | ![Features](images/LandingFeatures3.png) |
 
-| FAQ | Contact | Footer |
-|-----|---------|--------|
-| Frequently asked questions | Contact form | Site footer with links |
+| About Section | About Section (cont.) | How It Works |
+|---------------|----------------------|--------------|
+| ![About](images/LandingAbout4.png) | ![About](images/LandingAbout5.png) | ![HowItWorks](images/LandingHowItWorks6.png) |
 
-### Dashboards
-| Admin Dashboard | User Dashboard | Booking Page |
-|-----------------|----------------|--------------|
-| Manage doctors & appointments | View appointments | Book with doctor |
+| Doctors Section | Doctors Section (cont.) | Testimonials |
+|-----------------|------------------------|--------------|
+| ![Doctors](images/LandingDoctors7.png) | ![Doctors](images/LandingDoctors8.png) | ![Testimonials](images/LandingTestimonials9.png) |
+
+| Booking Form | FAQ Section | FAQ Section (cont.) |
+|--------------|-------------|---------------------|
+| ![BookingForm](images/LandingBookingForm10.png) | ![FAQ](images/LandingFAQ11.png) | ![FAQ](images/LandingFAQ12.png) |
+
+| Contact Section | Contact Section (cont.) | Footer |
+|-----------------|-------------------------|--------|
+| ![Contact](images/LandingContact13.png) | ![Contact](images/LandingContact14.png) | ![Footer](images/LandingFooter15.png) |
+
+### Authentication Pages
+
+| Login | Register | Admin Login |
+|-------|----------|-------------|
+| ![Login](images/Login1.png) | ![Register](images/Register2.png) | ![AdminLogin](images/Login3.png) |
+
+### Admin Dashboard
+
+| Booking Management | Doctor Management | Add New Doctor | Doctor Management (All) |
+|--------------------|-------------------|----------------|-------------------------|
+| ![BookingManagement](images/AdminBookingManagement1.png) | ![DoctorManagement](images/AdminDoctorManagement2.png) | ![AddDoctor](images/AdminAddDoctor3.png) | ![DoctorsList](images/AdminDoctorManagement4.png) |
+
+### User Dashboard
+
+| User Login | User Dashboard | Booking Confirmation | Booking Form |
+|------------|----------------|---------------------|--------------|
+| ![UserLogin](images/UserLogin1.png) | ![UserDashboard](images/UserDashboard1.png) | ![BookingConfirmed](images/UserBookingConfirmation2.png) | ![BookingForm](images/UserBookingForm3.png) |
+
+| User Appointments |
+|-------------------|
+| ![UserAppointments](images/UserDashboardAppointments4.png) |
 
 ## 🚀 Installation
 
