@@ -75,10 +75,10 @@ const Login = () => {
         </div>
 
         {/* Demo Credentials */}
-        <div className="demo-box">
+        {/* <div className="demo-box">
           <p>Demo Email: admin@medcare.com</p>
           <p>Demo Password: admin@123</p>
-        </div>
+        </div> */}
 
         {/* Error Alert */}
         {apiError && (
